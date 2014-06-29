@@ -1,0 +1,225 @@
+#connectToFacebook {
+	padding-top:3px;
+	margin-top:30px;
+	height:60px;
+	width:316px;
+	font-family:helvetica;
+	font-size:16pt;
+	color:white;
+	border:3px solid white;
+	background:transparent;
+	text-decoration:bold;
+	border-radius:5px;
+	position:relative;
+	z-index:10 !important;
+
+}
+
+/*#dg .container .row:first-child div:first-child {
+	border-right:1px dashed gray;
+} */
+
+#loveTable {
+	padding-right:30px;
+}
+#hateTable {
+	padding-left:30px;
+}
+
+#loveTable table tr td:nth-child(4) {
+	text-align:right;
+}
+
+h1 {
+	margin-top:80px !important;
+}
+
+#connectToFacebook:hover {
+	background:white;
+	color:rgb(37,37,37);
+}
+
+.working {
+	cursor:default !important;
+}
+.working:hover {
+	background:transparent !important;
+	color:white  !important;
+}
+
+#shareToFacebook {
+	padding-top:3px;
+	height:60px;
+	width:300px;
+	font-family:helvetica;
+	font-size:16pt;
+	color:white;
+	border:3px solid white;
+	background:transparent;
+	text-decoration:bold;
+
+	border-radius:5px;
+}
+
+#progress-text {
+	font-family:helvetica;
+	font-size:16pt;
+	color:white;
+	text-decoration:bold !important;
+	//position:relative;
+}
+
+#shareToFacebook:hover {
+	background:white;
+	color:rgb(42,44,49);
+}
+
+
+table {
+	width:600px;
+	font-family:Raleway;
+	font-weight:300;
+	font-size:12pt;
+	//color:white;
+	color:rgb(51, 51, 51);
+	background:transparent;
+	//overflow:hidden;
+
+	margin:0 auto;
+}
+
+table tr {
+	//border-top:1px solid white;
+}
+/*
+table tr:first-child td:nth-child(2) {
+	//border-top:0px solid white;
+	color:#DAA520;
+}
+
+table tr:nth-child(2) td:nth-child(2) {
+	//border-top:0px solid white;
+	color:#AFAFAF;
+}
+
+table tr:nth-child(3) td:nth-child(2) {
+	//border-top:0px solid white;
+	color:#cd7f32;
+}*/
+
+tr td:first-child {
+	//border-right:1px solid white;
+	width:53px;
+}
+
+td {
+	text-align:left;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+td span {
+	padding-left:10px;
+
+}
+
+#logout{
+	position: absolute;
+	top: 5px;
+	right: 40px;
+	z-index: 11;
+	font-size: 16px;
+	color: white;
+	cursor: pointer;
+	background:transparent;
+	border:0px;
+}
+
+.row h3 {
+	margin-bottom:20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+
+.person-pic-wrapper {
+	margin-right: 15px;
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: middle;
+	width:43px;
+	height:43px;
+	//overflow:hidden;
+}
+
+.person-pic {
+	width:43px;
+	height:43px;
+}
+.image-wrap {
+	margin-right: 5px;
+	margin-bottom: 5px;
+	position: relative;
+	display: inline-block;
+	max-width: 100%;
+	vertical-align: bottom;
+}
+/* image-wrap:after pseudo element (overlaying container) */
+/*.person-pic-wrapper:after {
+	content: ' ';
+	width: 100%;
+	height: 100%;
+	/*position: absolute;
+	top: -1px;
+	left: -1px;
+	
+	//border: solid 1px #1b1b1b;
+	border:1px solid #333;
+	
+	-webkit-box-shadow: inset 0 0 1px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.4), inset 0 -3px 0 rgba(0,0,0,.5), inset 0 -4px 0 rgba(255,255,255,.3);
+	-moz-box-shadow: inset 0 0 1px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.4), inset 0 -3px 0 rgba(0,0,0,.5), inset 0 -4px 0 rgba(255,255,255,.3);
+	box-shadow: inset 0 0 1px rgba(0,0,0,.6), inset 0 1px 0 rgba(255,255,255,.4), inset 0 -3px 0 rgba(0,0,0,.5), inset 0 -4px 0 rgba(255,255,255,.3);
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	
+}*/
+.person-pic-wrapper img {
+	vertical-align: bottom;
+	/*
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	box-shadow: 0 1px 2px rgba(0,0,0,.4);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	*/
+}
+
+.person-pic-wrapper:before {
+	position: absolute;
+	content: ' ';
+	width: 100%;
+	height: 50%;
+	top: 0;
+	left: 0;
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-moz-border-radius-topleft: 7px;
+	-moz-border-radius-topright: 7px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.6) 0%, rgba(255,255,255,.15) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.6)), color-stop(100%,rgba(255,255,255,.15)));
+	background: linear-gradient(top, rgba(255,255,255,0.6) 0%,rgba(255,255,255,.15) 100%);
+}
+
+.share {
+	background: url('assets/img/vertical_cloth.png') !important;
+}
